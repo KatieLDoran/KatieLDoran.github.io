@@ -1,3 +1,55 @@
 html {
   font-family: 'Roboto Condensed', sans-serif;
 }
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.left-nav-ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 25%;
+}
+
+.left-nav-ul:first-child {
+  margin: 0 0 0 -1em;
+}
+
+.flex-img-parent {
+  display: flex;
+}
+
+.flex-img {
+  align-self: center;
+}
+
+.left-nav-li {}
+
+.right-nav-ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 75%;
+}
+
+.right-nav-ul:last-child {
+  margin: 0 -1em 0 0;
+}
+
+.right-nav-li {}
+
+.nav-a {
+  margin: 0 1em;
+}
+
+.nav-img {}
