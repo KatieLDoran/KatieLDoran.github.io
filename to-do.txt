@@ -1,2 +1,20 @@
+Logo
+
 Pick a theme color
+
 Pick a Favicon
+-https://favicon.io/
+
+META
+Description
+Image
+-minimum dimension of 1200×630
+-aspect ratio of 1.91:1
+-less than 1MB
+Facebook Analytics Number
+-https://developers.facebook.com/docs/platforminsights/domains
+Twitter Analytics
+-https://dev.twitter.com/cards/analytics 
+Check Result
+-https://developers.facebook.com/tools/debug/
+-https://cards-dev.twitter.com/validator
