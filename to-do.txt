@@ -1,9 +1,18 @@
+Mobile Nav
+
 Logo
 
 Pick a theme color
 
 Pick a Favicon
 -https://favicon.io/
+
+Anchor colors
+
+Gutters
+
+Responsive Type
+-https://zellwk.com/blog/viewport-based-typography/
 
 META
 Description
