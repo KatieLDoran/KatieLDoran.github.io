@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#d00000">
+  <!-- Google Analytics -->
+  <!-- Icons -->
+  <!--
+   <base href="" target="_blank">
+   <link rel="home" href="">
+   <link rel="canonical" href="">
+   <link rel="shortlink" href="">
+   -->
+  <meta property="og:site_name" content="Katie Doran">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="">
+  <meta property="og:title" content="Katie Doran | Graphic Design">
+  <meta property="og:image" content="">
+  <meta property="og:description" content="">
+  <meta name="twitter:image:alt" content="Alt text for image">
+  <meta name="twitter:card" content="summary_large_image">
+  <!--
+    <meta property="fb:app_id" content="your_app_id">
+    <meta name="twitter:site" content="@website-username">
+  -->
+  <title>Katie Doran | Graphic Design</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body id="body" class="">
+  <aside class="loading-veil" id="loadingVeil">
+    <h2 class="loading-veil-h2">Katie Doran</h2>
+    <p class="loading-veil-p">Loading</p>
+  </aside>
+  <header class="header" id="header">
+    <h1 class="header-mark">KD</h1>
+    <div class="menu-switch" onclick="controller.menuTapClick();" id="menuSwitch">
+      <span class="menu-switch-element"></span>
+      <span class="menu-switch-element"></span>
+      <span class="menu-switch-element"></span>
+      <span class="menu-switch-element"></span>
+    </div>
+  </header>
+  <section class="menu" id="menu">
+    <p class="line-length mb-10">Helvetica is a neo-grotesque design, one influenced by the famous 19th century (1890s) typeface Akzidenz-Grotesk and other German and Swiss designs. Its use became a hallmark of the International Typographic Style
+      that
+      emerged from the work of Swiss designers in the 1950s and '60s, becoming one of the most popular typefaces of the mid-20th century. Over the years, a wide range of variants have been released in different weights, widths, and sizes, as well
+      as matching designs for a range of non-Latin alphabets.</p>
+    <nav class="nav" id="nav">
+      <ul>
+        <li><a class="link" href="#">Resume</a></li>
+        <li><a class="link" href="#">LinkedIn</a></li>
+        <li><a class="link" href="#">Email: email@email.com</a></li>
+        <li><a class="link" href="#">Phone: (1) 111-111-1111</a></li>
+      </ul>
+    </nav>
+  </section>
+  <main class="main" id="main">
+    <div class="grid-00">
+      <a class="" href="#" onclick="controller.openOverlay('projectOverlay00')">
+        <figure class="thumbnail-figure thumbnail-1x1-figure">
+          <img class="thumbnail-1x1-img" src="img/polyphonic-00-1000.jpg" alt="">
+        </figure>
+      </a>
+      <a class="" href="#" onclick="controller.openOverlay('projectOverlay01')">
+        <figure class="thumbnail-figure thumbnail-1x1-figure">
+          <img class="thumbnail-1x1-img" src="img/zaba-00-1000.jpg" alt="">
+        </figure>
+      </a>
+      <a class="" href="#" onclick="controller.openOverlay('projectOverlay02')">
+        <figure class="thumbnail-figure thumbnail-1x1-figure">
+          <img class="thumbnail-1x1-img" src="img/cobalt-01-1000.jpg" alt="">
+        </figure>
+      </a>
+      <a class="" href="#" onclick="controller.openOverlay('projectOverlay03')">
+        <figure class="thumbnail-figure thumbnail-1x1-figure">
+          <img class="thumbnail-1x1-img" src="img/curated-00-1000.jpg" alt="">
+        </figure>
+      </a>
+      <a class="" href="#" onclick="controller.openOverlay('projectOverlay04')">
+        <figure class="thumbnail-figure thumbnail-1x1-figure">
+          <img class="thumbnail-1x1-img" src="img/skydiving-00-1000.jpg" alt="">
+        </figure>
+      </a>
+      <a class="" href="#" onclick="controller.openOverlay('projectOverlay05')">
+        <figure class="thumbnail-figure thumbnail-1x1-figure">
+          <img class="thumbnail-1x1-img" src="img/zoo-01-1000.jpg" alt="">
+        </figure>
+      </a>
+    </div>
+  </main>
+  <section class="project-overlay z-index-0 opacity-0" id="projectOverlay00">
+    <div class="overlay-controls mb-10">
+      <h3 class="font-size-01">Polyphonic</h3>
+      <h6 class="link font-size-06" onclick="controller.hideProjectOverlay('projectOverlay00');">Close Me</h6>
+    </div>
+    <div class="grid-01">
+      <figure class="thumbnail-figure thumbnail-1x1-figure">
+        <img class="thumbnail-1x1-img" src="img/polyphonic-00-1000.jpg" alt="">
+      </figure>
+      <figure class="thumbnail-figure thumbnail-1x1-figure">
+        <img class="thumbnail-1x1-img" src="img/polyphonic-01-1000.jpg" alt="">
+      </figure>
+      <figure class="thumbnail-figure thumbnail-1x1-figure">
+        <img class="thumbnail-1x1-img" src="img/polyphonic-02-1000.jpg" alt="">
+      </figure>
+      <figure class="thumbnail-figure thumbnail-1x1-figure">
+        <img class="thumbnail-1x1-img" src="img/polyphonic-03-1000.jpg" alt="">
+      </figure>
+      <figure class="thumbnail-figure thumbnail-1x1-figure">
+        <img class="thumbnail-1x1-img" src="img/polyphonic-04-1000.jpg" alt="">
+      </figure>
+      <figure class="thumbnail-figure thumbnail-1x1-figure">
+        <img class="thumbnail-1x1-img" src="img/polyphonic-05-1000.jpg" alt="">
+      </figure>
+    </div>
+  </section>
+  <section class="project-overlay z-index-0 opacity-0" id="projectOverlay01">
+    <div class="overlay-controls mb-10">
+      <h3 class="font-size-01">Zaba</h3>
+      <h6 class="link font-size-06" onclick="controller.hideProjectOverlay('projectOverlay01');">Close Me</h6>
+    </div>
+    <div class="grid-01">
+      <figure class="thumbnail-figure thumbnail-1x1-figure">
+        <img class="thumbnail-1x1-img" src="img/zaba-00-1000.jpg" alt="">
+      </figure>
+      <figure class="thumbnail-figure thumbnail-1x1-figure">
+        <img class="thumbnail-1x1-img" src="img/zaba-01-1000.jpg" alt="">
+      </figure>
+    </div>
+  </section>
+  <section class="project-overlay z-index-0 opacity-0" id="projectOverlay02">
+    <div class="overlay-controls mb-10">
+      <h3 class="font-size-01">Cobalt</h3>
+      <h6 class="link font-size-06" onclick="controller.hideProjectOverlay('projectOverlay02');">Close Me</h6>
+    </div>
+    <div class="grid-01">
+      <figure class="thumbnail-figure thumbnail-1x1-figure">
+        <img class="thumbnail-1x1-img" src="img/cobalt-01-1000.jpg" alt="">
+      </figure>
+    </div>
+  </section>
+  <section class="project-overlay z-index-0 opacity-0" id="projectOverlay03">
+    <div class="overlay-controls mb-10">
+      <h3 class="font-size-01">Curated</h3>
+      <h6 class="link font-size-06" onclick="controller.hideProjectOverlay('projectOverlay03');">Close Me</h6>
+    </div>
+    <div class="grid-01">
+      <figure class="thumbnail-figure thumbnail-1x1-figure">
+        <img class="thumbnail-1x1-img" src="img/curated-00-1000.jpg" alt="">
+      </figure>
+    </div>
+  </section>
+  <section class="project-overlay z-index-0 opacity-0" id="projectOverlay04">
+    <div class="overlay-controls mb-10">
+      <h3 class="font-size-01">Skydiving</h3>
+      <h6 class="link font-size-06" onclick="controller.hideProjectOverlay('projectOverlay04');">Close Me</h6>
+    </div>
+    <div class="grid-01">
+      <figure class="thumbnail-figure thumbnail-1x1-figure">
+        <img class="thumbnail-1x1-img" src="img/skydiving-00-1000.jpg" alt="">
+      </figure>
+      <figure class="thumbnail-figure thumbnail-1x1-figure">
+        <img class="thumbnail-1x1-img" src="img/skydiving-00-1000.jpg" alt="">
+      </figure>
+    </div>
+  </section>
+  <section class="project-overlay z-index-0 opacity-0" id="projectOverlay05">
+    <div class="overlay-controls mb-10">
+      <h3 class="font-size-01">Zoo</h3>
+      <h6 class="link font-size-06" onclick="controller.hideProjectOverlay('projectOverlay05');">Close Me</h6>
+    </div>
+    <div class="grid-01">
+      <figure class="thumbnail-figure thumbnail-1x1-figure">
+        <img class="thumbnail-1x1-img" src="img/zoo-01-1000.jpg" alt="">
+      </figure>
+      <figure class="thumbnail-figure thumbnail-1x1-figure">
+        <img class="thumbnail-1x1-img" src="img/" alt="">
+      </figure>
+    </div>
+  </section>
+  <footer>
+  </footer>
+  <script type="text/javascript" src="app.js"></script>
+  <script type="text/javascript">
+    window.addEventListener('load', controller.initialLoad());
+    //window.addEventListener('resize', controller.handleResize);
+  </script>
+</body>
+</html>
